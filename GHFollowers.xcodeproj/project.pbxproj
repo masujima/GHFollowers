@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		F5A14B49258BAA73006A3D6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A14B48258BAA73006A3D6C /* AppDelegate.swift */; };
 		F5A14B4B258BAA73006A3D6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A14B4A258BAA73006A3D6C /* SceneDelegate.swift */; };
-		F5A14B4D258BAA73006A3D6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A14B4C258BAA73006A3D6C /* ViewController.swift */; };
-		F5A14B50258BAA73006A3D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A14B4E258BAA73006A3D6C /* Main.storyboard */; };
 		F5A14B52258BAA74006A3D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A14B51258BAA74006A3D6C /* Assets.xcassets */; };
 		F5A14B55258BAA74006A3D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A14B53258BAA74006A3D6C /* LaunchScreen.storyboard */; };
+		F5A14B61258C7861006A3D6C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A14B60258C7861006A3D6C /* SearchViewController.swift */; };
+		F5A14B64258C7885006A3D6C /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A14B63258C7885006A3D6C /* FavoritesViewController.swift */; };
+		F5A14B68258DDA6F006A3D6C /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A14B67258DDA6F006A3D6C /* GFButton.swift */; };
+		F5A14B6B258DFFFA006A3D6C /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A14B6A258DFFFA006A3D6C /* GFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5A14B45258BAA73006A3D6C /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A14B48258BAA73006A3D6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5A14B4A258BAA73006A3D6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5A14B4C258BAA73006A3D6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F5A14B4F258BAA73006A3D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5A14B51258BAA74006A3D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5A14B54258BAA74006A3D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5A14B56258BAA74006A3D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A14B60258C7861006A3D6C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F5A14B63258C7885006A3D6C /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		F5A14B67258DDA6F006A3D6C /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		F5A14B6A258DFFFA006A3D6C /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				F5A14B48258BAA73006A3D6C /* AppDelegate.swift */,
 				F5A14B4A258BAA73006A3D6C /* SceneDelegate.swift */,
-				F5A14B4C258BAA73006A3D6C /* ViewController.swift */,
-				F5A14B4E258BAA73006A3D6C /* Main.storyboard */,
 				F5A14B51258BAA74006A3D6C /* Assets.xcassets */,
 				F5A14B53258BAA74006A3D6C /* LaunchScreen.storyboard */,
 				F5A14B56258BAA74006A3D6C /* Info.plist */,
+				F5A14B60258C7861006A3D6C /* SearchViewController.swift */,
+				F5A14B63258C7885006A3D6C /* FavoritesViewController.swift */,
+				F5A14B67258DDA6F006A3D6C /* GFButton.swift */,
+				F5A14B6A258DFFFA006A3D6C /* GFTextField.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -126,7 +132,6 @@
 			files = (
 				F5A14B55258BAA74006A3D6C /* LaunchScreen.storyboard in Resources */,
 				F5A14B52258BAA74006A3D6C /* Assets.xcassets in Resources */,
-				F5A14B50258BAA73006A3D6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +142,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A14B4D258BAA73006A3D6C /* ViewController.swift in Sources */,
+				F5A14B6B258DFFFA006A3D6C /* GFTextField.swift in Sources */,
+				F5A14B61258C7861006A3D6C /* SearchViewController.swift in Sources */,
+				F5A14B68258DDA6F006A3D6C /* GFButton.swift in Sources */,
 				F5A14B49258BAA73006A3D6C /* AppDelegate.swift in Sources */,
+				F5A14B64258C7885006A3D6C /* FavoritesViewController.swift in Sources */,
 				F5A14B4B258BAA73006A3D6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +154,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F5A14B4E258BAA73006A3D6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5A14B4F258BAA73006A3D6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5A14B53258BAA74006A3D6C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hikikomorinobaka.GHFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +315,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hikikomorinobaka.GHFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
